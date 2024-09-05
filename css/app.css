@@ -1,7 +1,10 @@
+#kép{
+    z-index: 1;
+    
+}
 #oldal{
-    background-image: url(../img/nyár.jpeg);
     text-align: center;
-    height: 1000px;
+    z-index: 2;
 }
 #oldal h1{
     color: aqua;
