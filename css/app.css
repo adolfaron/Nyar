@@ -1,11 +1,26 @@
-#kép{
-    z-index: 1;
-    
+body{
+    background-color: #dff4ff;
 }
-#oldal{
+nav{
+    background-color: rgb(37, 132, 201);
+}
+.oldal{
     text-align: center;
-    z-index: 2;
+    padding-top: 40px;
 }
-#oldal h1{
-    color: aqua;
+.oldal h1{
+    color: rgb(37, 132, 201);
+    padding-top: 25px;
+}
+.nav-item a .active{
+    color: white;
+}
+.a img{
+    border-radius: 10% 50% 10% 50%;
+    padding-top: 30px;
+}
+@media screen and (max-width: 900px){
+    .a img{
+        width: 80%;
+    }
 }
